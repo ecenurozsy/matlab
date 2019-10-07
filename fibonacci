@@ -1,0 +1,20 @@
+clear all;clc;
+number = input("Please enter a number: ");
+counter = 1;
+i=1;
+j=1;
+fprintf("1 ");
+
+while 1
+    
+    fprintf("%d ",i);
+    temp = i; 
+    i = i + j;
+    j = temp;
+    
+    counter = counter + 1;    
+    if counter == number
+        break;
+    end
+    
+end
