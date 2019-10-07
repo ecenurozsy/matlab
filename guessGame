@@ -1,0 +1,24 @@
+clear all;clc;
+
+randomNumber = randi([0 100]);
+
+fprintf("\t\t*****WELCOME THE GAME!*****");
+fprintf("\n\t\t\tTry to find my number");
+fprintf("\n\t\t***************************");
+counter = 0;
+while true
+    counter = counter + 1;
+    guess = input("\n\nYour guess=");
+    
+    if( guess == randomNumber)
+            fprintf("\n\n\t\t****WELL DONE. YOUR %d. GUESS IS RIGHT****\n\n",counter);
+            break;
+    else
+        if (randomNumber>guess)
+            disp("Try the bigger.");
+            
+        else
+            disp("Try the lower.");
+        end
+    end
+end
