@@ -20,12 +20,12 @@ for i=2:numberV
 end
 fprintf("\t\t***********************************************************************\n");
 fprintf("\t\t***********************************************************************\n");
-fprintf("\t\t\t\t\t\t\t\tOrtanormal Matrisiniz:\n\n\n");
+fprintf("\t\t\t\t\t\t\t\tOrthogonal Matrix:\n\n\n");
 disp(V');
 fprintf("\n\n");
 fprintf("\t\t***********************************************************************\n");
 fprintf("\t\t***********************************************************************\n");
-fprintf("\t\t\t\t\t\t\t\tOrtagonal Matrisiniz:\n\n\n");
+fprintf("\t\t\t\t\t\t\t\tOrthonormol Matrix:\n\n\n");
 for i=1:numberV
     O(i,:) = unitV(V(i,:));
 end
