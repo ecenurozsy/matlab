@@ -1,0 +1,18 @@
+CANNY EDGE DETECTİON WİTH MATLAB 
+
+This is a algorithm for edge detection. 
+There is 5 steps. 
+
+1-Convert to image Gray Scale (this is made with grayScalePic.m function)
+2- Apply to Gaussian Filter to image (this is made with gaussianFilt.m function)
+  * My gaussian filter function needs sigma and kernel value.
+3- Calculating the Image Gradient (This is made with imageGrad.m function) 
+  * After this function will calculate dx and dy of image, function finds the magnitude and theta value of image through dx and dy. 
+4- Non-Maximum Supression (This is made with nonMaxSup.m function)
+5- Thresholding (This is made with thresholding.m function) 
+  * Upper and lower value will be given. 
+
+All steps will be applied to the image step by step.
+I will upload Medium Blog for this, and then it will be more understandable. 
+Thanks. 
+Good code. 
